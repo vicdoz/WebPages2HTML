@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<AplicacionWeb xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="WebApp" titulo="Modelo de la Biblioteca">
+  <paginas titulo="libro" nombre="Libro.html">
+    <parrafos texto="ISBN,de tipo:Texto"/>
+    <parrafos texto="Titulo,de tipo:Texto"/>
+  </paginas>
+  <paginas titulo="socio" nombre="Socio.html">
+    <parrafos texto="Nombre,de tipo:Texto"/>
+    <parrafos texto="Num_libros_prestados,de tipo:Entero"/>
+  </paginas>
+  <paginas titulo="Prestamo" nombre="Prestamo.html"/>
+</AplicacionWeb>
+	

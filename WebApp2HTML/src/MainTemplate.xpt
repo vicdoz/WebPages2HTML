@@ -1,0 +1,30 @@
+«IMPORT WebApp»
+
+
+
+«DEFINE Root FOR AplicacionWeb»
+
+	«FILE "index.html"»
+	<html>
+	<Body>
+		<H1>Documentación para la aplicación «titulo»</H1>
+		</Body>
+				</html>
+	«ENDFILE»
+
+    «EXPAND ProcesaPaginaWeb FOREACH paginas»
+
+«ENDDEFINE»
+
+
+«DEFINE ProcesaPaginaWeb FOR PaginaWeb»
+  «FILE nombre»
+    <HTML> 
+    <HEAD><TITLE>«titulo»</TITLE>
+    </HEAD>
+    <BODY>
+ 	</BODY>
+    </HTML>
+  «ENDFILE»
+«ENDDEFINE»
+

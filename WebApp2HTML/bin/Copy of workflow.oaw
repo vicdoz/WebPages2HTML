@@ -1,0 +1,24 @@
+<workflow> 
+  <property name="modelFile" value="My.webapp"/> 
+  <property name="metaModelPackage" value="WebApp.WebAppPackage"/> 
+  <property name="srcGenPath" value="src-gen"/> 
+  <property name="fileEncoding" value="ISO-8859-1"/> 
+
+  <component id="xmiParser" 
+    class="org.eclipse.xtend.typesystem.emf.XmiReader"> 
+    <modelFile value="${modelFile}"/> 
+    <metaModelPackage value="${metaModelPackage}"/> 
+    <outputSlot value="model"/> 
+    <firstElementOnly value="true"/> 
+  </component> 
+  
+  <component id="generator" 
+    class="org.eclipse.xpand2.Generator">
+	<metaModel id="mm" 
+      class="org.eclipse.xtend.typesystem.emf.EmfMetaModel"> 
+      <metaModelPackage value="${metaModelPackage}"/> 
+    </metaModel> 
+	<expand value="templates::MainTemplate::Root FOR model"/> 
+	<outlet path="${srcGenPath}/"/> 
+	</component>
+   </workflow>

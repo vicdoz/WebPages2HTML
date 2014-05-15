@@ -1,0 +1,7 @@
+# Tracing options for the WebPagesProject.diagram plug-in
+
+# Common issues
+WebPagesProject.diagram/debug=false
+
+# Visual IDs
+WebPagesProject.diagram/debug/visualID=false
