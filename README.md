@@ -13,7 +13,7 @@ Folders:
 
   --1)WebApp2HTML:
   - Project to create models and apply transformations(Model -> Code). In this project: 
-    the folder src-gen contains the code generated. 
+  - the folder src-gen contains the code generated. 
 
   - the folder src contains : a copy of metamodel (.ecore), my model based on metamodel, the files that includes                                        transformation-rules and workflow.mwe is the engine(you must run it).
     
