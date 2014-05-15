@@ -1,11 +1,16 @@
 WebPages2HTML
 =============
-
-
-
 project to  generate code based on a metamodel 
-Dependencies in eclipse :EMF,XPAND
-In this example we have a metamodel of a website. A model created for a library based on it. From this model through a template generated the touring model code.
+
+
+
+
+Description:
+=============
+In this example we have a metamodel of a website. A model created for a library based on it.From this model we will generate a website
+Dependencies:
+=============
+In eclipse :EMF,XPAND
 
 Folders: 
 =============
