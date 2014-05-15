@@ -1,9 +1,11 @@
 WebPages2HTML
 =============
 
-WebPages2HTML
 
-project to automatically generate code based on a metamodel Dependencies in eclipse :EMF,XPAND
+
+project to  generate code based on a metamodel 
+
+Dependencies in eclipse :EMF,XPAND
 
 In this example we have a metamodel of a website. A model created for a library based on it. From this model through a
 
